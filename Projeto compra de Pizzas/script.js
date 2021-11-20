@@ -1,7 +1,7 @@
 let modalQt = 1;
 
 const c = (el) =>document.querySelector(el);
-const cs = (el) =>document.querySelector(el);
+const cs = (el) =>document.querySelectorAll(el);
 
 
 pizzaJson.map((item, index)=>{
